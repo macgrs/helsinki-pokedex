@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const PokemonList = ({ pokemonList }) => {
   return (
@@ -13,7 +14,7 @@ const PokemonList = ({ pokemonList }) => {
         </Link>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default PokemonList
+export default PokemonList;
